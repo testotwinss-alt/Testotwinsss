@@ -9,14 +9,17 @@
  *   2. Links im Menü "Payment Links" -> "Neuer Link" -> das Produkt wählen.
  *   3. Zahlungsmethoden aktivieren (PayPal, Klarna, Karte) und Link erstellen.
  *   4. Die generierte URL (Form: https://buy.stripe.com/XXXXXXXX) kopieren.
- *   5. In der Datei ".env" (aus ".env.example" kopiert) eintragen:
- *      VITE_STRIPE_PAYMENT_LINK=https://buy.stripe.com/XXXXXXXX
- *   6. Neu bauen (npm run build) bzw. Dev-Server neu starten.
+ *   5. Unten bei PAYMENT_LINK eintragen und neu deployen.
+ *      (Optional überschreibt die Env-Variable VITE_STRIPE_PAYMENT_LINK den Wert.)
  *
  * Solange kein GÜLTIGER Link gesetzt ist, scrollen alle CTAs sanft zur Preis-Box
  * (#checkout) statt zu einer toten Zahlungsseite zu führen (siehe useBuy-Composable).
  */
-const RAW_LINK = (import.meta.env.VITE_STRIPE_PAYMENT_LINK || '').trim()
+
+// ⚠️ Aktuell der Stripe-TEST-Link — vor Livegang gegen den Live-Link tauschen!
+const PAYMENT_LINK = 'https://buy.stripe.com/test_cNifZagiA2pLeKMfHkbAs01'
+
+const RAW_LINK = (import.meta.env.VITE_STRIPE_PAYMENT_LINK || PAYMENT_LINK || '').trim()
 
 const STRIPE_PREFIX = 'https://buy.stripe.com/'
 
