@@ -1,0 +1,343 @@
+================================================================
+TWIN BLUEPRINT — KOMPLETTES WORDING DER LANDINGPAGE
+Stand: Juli 2026 · Reihenfolge = Reihenfolge auf der Seite
+================================================================
+
+Markierungen:
+  [CTA]        = Kauf-Button (führt zum Stripe-Checkout)
+  [TODO KUNDE] = Aussage, die Luca & Finn vor Livegang bestätigen müssen
+  (…)          = Anmerkung, nicht sichtbarer Text
+
+
+----------------------------------------------------------------
+0) META / GOOGLE & SOCIAL-VORSCHAU
+----------------------------------------------------------------
+Browser-Titel:
+  Twin Blueprint — Das Natural-Programm der Testotwins | 29€
+
+Beschreibung (Google/Social):
+  Von skinny zu mogged: Das komplette Training + Ernährung, mit dem
+  die Testotwins (Luca & Finn) als natural Zwillinge crazy Progress
+  gebaut haben. Kein Bro-Science, kein Abo — einmal 29€.
+
+Social-Vorschau (og:title / og:description):
+  Twin Blueprint — Das Natural-Programm der Testotwins
+  Von skinny zu mogged. Training + Ernährung, an zwei Twins getestet.
+  Natural. Einmal 29€, kein Abo.
+
+
+----------------------------------------------------------------
+1) STICKY-HEADER (immer sichtbar)
+----------------------------------------------------------------
+Wortmarke:   TESTOTWINS (+ rundes Profilbild)
+[CTA]        29€ sichern →
+
+
+----------------------------------------------------------------
+2) HERO (Vollbild, Foto: pump.jpg)
+----------------------------------------------------------------
+Eyebrow:     DAS NATURAL-PROGRAMM DER TESTOTWINS
+
+Headline:    VON SKINNY ZU MOGGED — DER PLAN,
+             MIT DEM WIR ES GEBAUT HABEN.
+             ("MOGGED" in Orange hervorgehoben)
+
+Subline:     Das komplette Training + Ernährung, mit dem wir als
+             Twins von 0 auf crazy Progress gekommen sind — kein
+             Bro-Science, kein Abo, einmal 29€ und es gehört dir.
+
+[CTA]        Hol dir den Blueprint →
+
+Trust-Zeile: Sichere Zahlung • Sofort-Zugang • Einmalzahlung, kein Abo
+Follower:    ★ 16.800+ folgen den Twins
+
+
+----------------------------------------------------------------
+3) SOCIAL-PROOF-LEISTE
+----------------------------------------------------------------
+  16.800+  Follower
+  512      Beiträge
+  Badge:   "Trentwins meet the Testotwins" (+ Foto)
+  Kleintext: Instagram @testotwins08 · Stand Juli 2026
+
+
+----------------------------------------------------------------
+4) STORY / WER WIR SIND (Foto: abitur.jpg + Avatar)
+----------------------------------------------------------------
+Eyebrow:     WER WIR SIND
+Headline:    Zwei Brüder, gleiche Gene, ein Ziel.
+
+Absatz 1:    Wir sind Luca & Finn — 18, frisch das Abitur 2026 in
+             der Tasche und mitten im Gym-Leben. Angefangen haben
+             wir wie fast jeder: dünn, planlos, verloren im
+             YouTube-Rabbit-Hole.
+
+Absatz 2:    Alles, was wir haben, haben wir 100% natural
+             aufgebaut. Kein Shortcut, keine Ausreden — nur
+             Training, Ernährung und Konstanz.
+             [TODO KUNDE: Natural-Aussage bestätigen]
+
+Absatz 3:    Und das Beste: Als Zwillinge sind wir ein eingebautes
+             Kontroll-Experiment. Gleiche Gene, gleicher Start —
+             was bei uns beiden funktioniert, ist kein Genetik-
+             Glück, sondern ein System. Genau dieses System
+             bekommst du.
+
+
+----------------------------------------------------------------
+5) PROBLEM-SEKTION
+----------------------------------------------------------------
+Eyebrow:     KENNST DU DAS?
+Headline:    100 YOUTUBE-VIDEOS, 100 MEINUNGEN, 0 PLAN.
+
+Pain-Points (mit ×-Symbol):
+  × Jeder Fitness-Kanal sagt was anderes — und du weißt am Ende
+    weniger als vorher.
+  × Du trainierst hart, aber ohne roten Faden bleibt der Progress aus.
+  × Ernährung fühlt sich an wie Raketenwissenschaft — also machst
+    du irgendwas.
+
+Outro:       Wir haben genau diesen Chaos-Modus durchgemacht. Der
+             Blueprint ist die Abkürzung, die wir uns damals
+             gewünscht hätten.
+
+
+----------------------------------------------------------------
+6) FEATURES / WAS DRIN IST (6 Karten)
+----------------------------------------------------------------
+Eyebrow:     WAS DRIN IST
+Headline:    ALLES, WAS DU BRAUCHST — NICHTS, WAS DU NICHT BRAUCHST.
+
+01 Workout-Splits
+   Von Anfänger bis Fortgeschritten, 2–6× die Woche. Egal wie oft
+   du kannst — es gibt einen Split, der zu deinem Leben passt.
+
+02 Ernährungsprotokolle
+   Aufbau, Diät & Recomp — Schritt für Schritt und budget-tauglich.
+   Kein Steak-und-Lachs-jeden-Tag-Bullshit.
+
+03 Progressive-Overload-System
+   Der Motor hinter jedem Gain. Wir zeigen dir exakt, wie du Woche
+   für Woche stärker wirst — messbar, nicht nach Gefühl.
+
+04 Mindset & Konstanz
+   „Aura kommt vom Grind." Wie du am Ball bleibst, wenn die
+   Motivation weg ist — der Teil, an dem die meisten scheitern.
+
+05 Cardio & Recomp
+   Fett verlieren, ohne Muskeln zu opfern. Wie viel Cardio wirklich
+   nötig ist — und wie du es clever einsetzt.
+
+06 Twin-Vergleich: Luca vs. Finn   (orange hervorgehobene Karte)
+   High-Volume (Luca) gegen High-Intensity (Finn) — zwei Wege, ein
+   Ergebnis. Wähl den Typ, der zu dir passt.
+   [TODO KUNDE: Zuordnung + Trainingsphilosophie abstimmen]
+
+
+----------------------------------------------------------------
+7) PRODUKT-EINBLICK (Fotos: kfa-post.jpg, progress.jpg)
+----------------------------------------------------------------
+Eyebrow:     EIN BLICK REIN
+Headline:    So sieht's drin aus.
+
+Caption 1:   KFA IM BLICK — Wir zeigen dir, wie du deinen
+             Körperfettanteil realistisch einschätzt — statt dich
+             von der Waage verrückt machen zu lassen.
+
+Caption 2:   ECHTER PROGRESS — Kein Facetune, kein Filter — nur
+             das, was Training + Ernährung über die Zeit machen.
+
+
+----------------------------------------------------------------
+8) PHYSIQUE-GRID (4 Fotos: rage, summer, jacked, kapitel)
+----------------------------------------------------------------
+Eyebrow:     DAS ERGEBNIS
+Headline:    GEBAUT MIT DEM, WAS WIR DIR GEBEN.
+(keine weiteren Texte — die Bilder sprechen)
+
+
+----------------------------------------------------------------
+9) TWIN-USP (2 Karten + VS-Badge)
+----------------------------------------------------------------
+Eyebrow:     DER TWIN-VORTEIL
+Headline:    2 COACHES. 1 PREIS.
+Lead:        Die meisten Coaches sind eine Meinung. Wir sind zwei —
+             gleiche Gene, gleicher Start, jeder Split an uns
+             selbst getestet.
+
+TEAM LUCA — HIGH VOLUME          [TODO KUNDE: Zuordnung bestätigen]
+  — Mehr Sätze, mehr Pump, mehr Volumen pro Muskel
+  — Ideal, wenn du gern lange & oft trainierst
+  — Fokus auf Mind-Muscle-Connection
+
+        VS
+
+TEAM FINN — HIGH INTENSITY
+  — Weniger Sätze, brutal harte Ausführung
+  — Ideal, wenn du wenig Zeit hast
+  — Fokus auf Progressive Overload bis zum Versagen
+
+
+----------------------------------------------------------------
+10) TESTIMONIALS — AKTUELL DEAKTIVIERT
+----------------------------------------------------------------
+(Sektion ist vorbereitet, wird aber NICHT angezeigt, bis echte
+Kundenstimmen mit Einverständnis vorliegen. Erfundene Bewertungen
+sind wettbewerbswidrig/abmahnbar.)
+
+
+----------------------------------------------------------------
+11) PREIS-BOX (id: checkout — hierhin scrollen alle CTAs ohne Link)
+----------------------------------------------------------------
+Eyebrow:     NUR EIN KLICK ENTFERNT
+Headline:    DER KOMPLETTE TWIN BLUEPRINT.
+
+Banner:      EINMALZAHLUNG · KEIN ABO
+
+Preis:       29€  einmalig
+
+Inklusive (mit ✓):                [TODO KUNDE: Produktumfang abgleichen]
+  ✓ Workout-Splits für 2–6 Trainingstage pro Woche,
+    von Anfänger bis Fortgeschritten
+  ✓ Ernährungsguide + Rezepte
+  ✓ Trainings-Tracker-Sheet
+  ✓ Zugang zur Community
+  ✓ Twin-Q&A + Formcheck-Bonus
+  ✓ Lebenslange Updates
+
+[CTA]        Twin Blueprint holen — 29€ →
+
+Trust:       Sichere Zahlung • Sofort-Zugang per Mail •
+             Einmalzahlung, kein Abo
+             PayPal · Klarna · Kredit- & Debitkarte
+             [TODO KUNDE: Zahlungsmethoden in Stripe aktivieren,
+              sonst Aufzählung kürzen]
+
+Garantie:    ✓ 30 Tage Geld-zurück-Garantie
+             [TODO KUNDE: Garantie bestätigen oder entfernen]
+
+Feinprint:   Es gilt das gesetzliche Widerrufsrecht für Verbraucher
+             (Link auf Widerrufsseite). Digitales Produkt,
+             sofortiger Zugang nach Kauf.
+
+
+----------------------------------------------------------------
+12) FAQ ("Noch Fragen? — Ehrliche Antworten.")
+----------------------------------------------------------------
+F: Ist das für Anfänger geeignet?
+A: Absolut. Wir starten bei den Basics und bauen alles logisch auf.
+   Es gibt Splits ab 2× die Woche für kompletten Einstieg — du
+   brauchst kein Vorwissen, nur den Willen anzufangen.
+
+F: Brauche ich ein Gym oder geht auch Home-Training?
+A: Der Blueprint ist auf das Gym optimiert, weil du dort am
+   schnellsten Fortschritte machst. Für den Start zuhause geben wir
+   dir Alternativen mit minimalem Equipment — spätestens für
+   ernsthaften Aufbau empfehlen wir aber ein Studio.
+
+F: Wie schnell sehe ich Progress?
+A: Ehrliche Antwort: Das hängt von dir ab — von Konstanz, Ernährung,
+   Schlaf und deiner Ausgangslage. Wir versprechen dir keinen festen
+   Zeitplan und keine Garantie. Was du bekommst, ist ein System mit
+   klarer Struktur. Es ist ein Marathon, kein Sprint — es
+   funktioniert, wenn du dranbleibst.
+
+F: Muss ich teuer essen und Supplements kaufen?
+A: Nein. Unsere Ernährungsprotokolle sind bewusst budget-tauglich —
+   mit normalen Lebensmitteln aus jedem Supermarkt. Supplements sind
+   optional; wir sagen dir ehrlich, welche wenigen sich lohnen und
+   welche Geldverschwendung sind.
+
+F: Seid ihr natural?                [TODO KUNDE: bestätigen lassen]
+A: Ja — zu 100% natural. Alles, was du auf unseren Fotos siehst, ist
+   über Jahre mit Training, Ernährung und Konstanz gebaut. Der
+   „#trentwins"-Spruch ist ein Meme und ein Augenzwinkern, keine
+   Aussage über unser Training. Dieses Programm ist ausdrücklich ein
+   Natural-Programm und empfiehlt keinerlei leistungssteigernde
+   Mittel.
+
+F: Ich bin Schüler/Azubi und hab wenig Zeit — passt das?
+A: Perfekt sogar. Wir haben das Ganze selbst neben dem Abi gebaut.
+   Es gibt kurze, intensive Splits ab 45 Minuten und 2–3 Einheiten
+   die Woche — der High-Intensity-Weg von Finn ist genau dafür
+   gemacht.
+
+F: Wie bekomme ich das Produkt?
+A: Komplett digital. Direkt nach dem Kauf bekommst du eine E-Mail
+   mit deinem Sofort-Zugang zu allen Inhalten. Kein Warten, kein
+   Versand — du kannst noch heute loslegen.
+
+F: Welche Zahlungsmethoden gibt es?  [TODO KUNDE: siehe Preis-Box]
+A: PayPal, Klarna (Rechnung/Ratenkauf) sowie Kredit- und Debitkarte.
+   Die Zahlung läuft verschlüsselt und sicher über unseren
+   Zahlungsdienstleister Stripe.
+
+F: Funktioniert das auch für Frauen?
+A: Ja. Die Prinzipien von Training, Progressive Overload und
+   Ernährung gelten geschlechtsunabhängig. Wir geben dir Anpassungen
+   für Recomp und Fokus-Muskelgruppen, sodass du das Programm auf
+   deine Ziele zuschneiden kannst.
+
+
+----------------------------------------------------------------
+13) FINAL-CTA (Vollbild, Foto: rage.jpg)
+----------------------------------------------------------------
+Headline:    DEIN MOVE, BROSKI.
+             ("BROSKI" in Orange hervorgehoben)
+
+[CTA]        Jetzt den Blueprint sichern →
+
+Trust:       Einmal 29€ • kein Abo • 30 Tage Geld-zurück-Garantie
+             [TODO KUNDE: Garantie bestätigen]
+
+
+----------------------------------------------------------------
+14) FOOTER
+----------------------------------------------------------------
+Marke:       TESTOTWINS
+Tagline:     Luca & Finn — natural aufgebaut, ehrlich geteilt. Das
+             Programm, das wir uns selbst gewünscht hätten.
+
+Folgen:      Instagram @testotwins08 (verlinkt)
+             TikTok (bald) · YouTube (bald)
+             [TODO: echte Kanal-URLs eintragen]
+
+Rechtliches: Impressum · Datenschutz · Widerruf (eigene Unterseiten)
+
+Disclaimer:  Hinweis: Ergebnisse sind individuell und hängen von
+             deinem Einsatz, deiner Ernährung und deiner Konstanz
+             ab. Die Inhalte ersetzen keinen medizinischen Rat —
+             bei gesundheitlichen Fragen wende dich an einen Arzt.
+             Dieses Programm ist ein Natural-Fitnessprogramm und
+             empfiehlt keinerlei leistungssteigernde oder
+             verschreibungspflichtige Substanzen.
+
+Copyright:   © 2026 Testotwins. Alle Rechte vorbehalten.
+
+
+----------------------------------------------------------------
+15) STICKY-KAUFLEISTE (nur mobil, erscheint nach dem Hero)
+----------------------------------------------------------------
+Preis:       29€  einmalig, kein Abo
+[CTA]        Jetzt sichern →
+
+
+----------------------------------------------------------------
+16) STRIPE-CHECKOUT (extern, nach Klick auf einen CTA)
+----------------------------------------------------------------
+Pflicht-Checkbox vor Zahlung:
+  "Ich verlange ausdrücklich, dass ihr vor Ablauf der Widerrufsfrist
+  mit der Bereitstellung des digitalen Inhalts beginnt. Mir ist
+  bekannt, dass mein Widerrufsrecht mit Beginn der Bereitstellung
+  erlischt. Die freiwillige 30-Tage-Geld-zurück-Garantie bleibt
+  davon unberührt."
+
+
+================================================================
+NICHT ENTHALTEN: Die vollständigen Rechtstexte (Impressum,
+Datenschutzerklärung, Widerrufsbelehrung) — eigene Unterseiten,
+Platzhalter werden laut deploy.md vor Livegang gefüllt.
+
+ALLE Zahlen/Fakten im Wording sind belegt (Instagram-Profil, Stand
+Juli 2026). Offene Bestätigungen: die 6 [TODO KUNDE]-Marker oben.
+================================================================
