@@ -4,7 +4,7 @@ import BuyButton from './BuyButton.vue'
 
 <template>
   <section class="finale" aria-labelledby="finale-title">
-    <img class="finale__bg" src="/img/rage.jpg" alt="Einer der Testotwins fokussiert vor dem Satz" loading="lazy" width="640" height="1138">
+    <img class="finale__bg" src="/img/shredded.jpg" alt="Einer der Testotwins im definierten Shape" loading="lazy" width="986" height="984" style="object-position: center 45%;">
     <div class="finale__scrim" aria-hidden="true"></div>
     <div class="container">
       <h2 class="finale__title" id="finale-title">Dein Move, <span class="hl hl--solid">Broski</span>.</h2>

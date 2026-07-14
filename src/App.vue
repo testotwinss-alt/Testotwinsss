@@ -3,6 +3,7 @@ import SiteHeader from './components/SiteHeader.vue'
 import HeroSection from './components/HeroSection.vue'
 import ProofBar from './components/ProofBar.vue'
 import StorySection from './components/StorySection.vue'
+import TransformSection from './components/TransformSection.vue'
 import ProblemSection from './components/ProblemSection.vue'
 import FeatureGrid from './components/FeatureGrid.vue'
 import ProductPeek from './components/ProductPeek.vue'
@@ -49,6 +50,7 @@ useReveal()
       <HeroSection />
       <ProofBar />
       <StorySection />
+      <TransformSection />
       <ProblemSection />
       <FeatureGrid />
       <ProductPeek />

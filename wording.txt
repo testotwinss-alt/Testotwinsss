@@ -13,17 +13,18 @@ Markierungen:
 0) META / GOOGLE & SOCIAL-VORSCHAU
 ----------------------------------------------------------------
 Browser-Titel:
-  Twin Blueprint — Das Natural-Programm der Testotwins | 29€
+  Twin Blueprint — +6 kg in einem Jahr, natural | Testotwins
 
 Beschreibung (Google/Social):
-  Von skinny zu mogged: Das komplette Training + Ernährung, mit dem
-  die Testotwins (Luca & Finn) als natural Zwillinge crazy Progress
+  +6 kg in einem Jahr, natural: Das komplette Training + Ernährung,
+  mit dem die Testotwins (Luca & Finn) als Zwillinge ihren Körper
   gebaut haben. Kein Bro-Science, kein Abo — einmal 29€.
 
 Social-Vorschau (og:title / og:description):
-  Twin Blueprint — Das Natural-Programm der Testotwins
-  Von skinny zu mogged. Training + Ernährung, an zwei Twins getestet.
-  Natural. Einmal 29€, kein Abo.
+  Twin Blueprint — +6 kg in einem Jahr, natural
+  Der echte 1-Jahres-Progress der Testotwins. Training + Ernährung,
+  an zwei Twins getestet. Natural. Einmal 29€, kein Abo.
+  (og:image: shredded.jpg)
 
 
 ----------------------------------------------------------------
@@ -34,17 +35,17 @@ Wortmarke:   TESTOTWINS (+ rundes Profilbild)
 
 
 ----------------------------------------------------------------
-2) HERO (Vollbild, Foto: pump.jpg)
+2) HERO (Vollbild, Foto: shredded.jpg)
 ----------------------------------------------------------------
 Eyebrow:     DAS NATURAL-PROGRAMM DER TESTOTWINS
 
-Headline:    VON SKINNY ZU MOGGED — DER PLAN,
+Headline:    +6 KG IN EINEM JAHR — DER PLAN,
              MIT DEM WIR ES GEBAUT HABEN.
-             ("MOGGED" in Orange hervorgehoben)
+             ("+6 KG" in Orange hervorgehoben)
 
 Subline:     Das komplette Training + Ernährung, mit dem wir als
-             Twins von 0 auf crazy Progress gekommen sind — kein
-             Bro-Science, kein Abo, einmal 29€ und es gehört dir.
+             Twins in einem Jahr echten Progress aufgebaut haben —
+             kein Bro-Science, kein Abo, einmal 29€ und es gehört dir.
 
 [CTA]        Hol dir den Blueprint →
 
@@ -57,12 +58,12 @@ Follower:    ★ 16.800+ folgen den Twins
 ----------------------------------------------------------------
   16.800+  Follower
   512      Beiträge
-  Badge:   "Trentwins meet the Testotwins" (+ Foto)
+  Badge:   "Luca & Finn · Posing-Studio" (+ Foto: posing-studio.jpg)
   Kleintext: Instagram @testotwins08 · Stand Juli 2026
 
 
 ----------------------------------------------------------------
-4) STORY / WER WIR SIND (Foto: abitur.jpg + Avatar)
+4) STORY / WER WIR SIND (Foto: see-front.jpg + Avatar)
 ----------------------------------------------------------------
 Eyebrow:     WER WIR SIND
 Headline:    Zwei Brüder, gleiche Gene, ein Ziel.
@@ -82,6 +83,27 @@ Absatz 3:    Und das Beste: Als Zwillinge sind wir ein eingebautes
              was bei uns beiden funktioniert, ist kein Genetik-
              Glück, sondern ein System. Genau dieses System
              bekommst du.
+
+
+----------------------------------------------------------------
+4b) 2025 VS 2026 (Fotos: vergleich-2025.jpg / vergleich-2026.jpg)
+----------------------------------------------------------------
+Eyebrow:     1 JAHR NATURAL
+Headline:    DER UNTERSCHIED
+
+(2-Spalten-Vergleich, immer nebeneinander)
+  Links:   Foto 2025  · Chip "2025 · 85 KG"
+  Rechts:  Foto 2026  · Chip "2026 · 91 KG"
+
+Payoff:      +6 KG. EIN JAHR. 100 % NATURAL.
+             ("+6 KG" in Orange hervorgehoben — einziger Akzent
+              in diesem Viewport)
+
+Caption:     Gleiche Zwillinge, 12 Monate dazwischen. Kein Facetune,
+             kein Filter — nur Plan.
+
+(Belegte Fakten: 2025 = 85 kg, 2026 = 91 kg + leaner, +6 kg in
+ einem Jahr, natural. Keine weiteren Zahlen.)
 
 
 ----------------------------------------------------------------
@@ -135,21 +157,30 @@ Headline:    ALLES, WAS DU BRAUCHST — NICHTS, WAS DU NICHT BRAUCHST.
 
 
 ----------------------------------------------------------------
-7) PRODUKT-EINBLICK (Fotos: kfa-post.jpg, progress.jpg)
+7) PRODUKT-EINBLICK (bild-los, 2-Spalten-Split)
 ----------------------------------------------------------------
-Eyebrow:     EIN BLICK REIN
-Headline:    So sieht's drin aus.
+Eyebrow:     WAS DU BEKOMMST
+Headline:    KEIN PLAN VON DER STANGE.
+Lead:        Kein loses PDF, kein Bro-Science-Zettel. Der Blueprint
+             ist das komplette System, mit dem wir selbst trainieren
+             — sofort einsatzbereit, alles digital.
 
-Caption 1:   KFA IM BLICK — Wir zeigen dir, wie du deinen
-             Körperfettanteil realistisch einschätzt — statt dich
-             von der Waage verrückt machen zu lassen.
+Deliverables-Panel (mit ✓):        [TODO KUNDE: Produktumfang abgleichen]
+  ✓ Workout-Splits — 2–6 Trainingstage die Woche, von Anfänger
+    bis Fortgeschritten
+  ✓ Ernährungsguide + Rezepte — Aufbau, Diät & Recomp,
+    budget-tauglich
+  ✓ Progressive-Overload-System — messbar stärker werden,
+    Woche für Woche
+  ✓ Trainings-Tracker — dein Fortschritt schwarz auf weiß
+  ✓ Twin-Vergleich: Luca vs. Finn — High-Volume gegen
+    High-Intensity
 
-Caption 2:   ECHTER PROGRESS — Kein Facetune, kein Filter — nur
-             das, was Training + Ernährung über die Zeit machen.
+Microcopy:   Sofort-Zugang · alles digital · einmal zahlen, behalten.
 
 
 ----------------------------------------------------------------
-8) PHYSIQUE-GRID (4 Fotos: rage, summer, jacked, kapitel)
+8) PHYSIQUE-GRID (3er-Triptychon: see-backpose, gym-selfie, backday)
 ----------------------------------------------------------------
 Eyebrow:     DAS ERGEBNIS
 Headline:    GEBAUT MIT DEM, WAS WIR DIR GEBEN.
@@ -280,7 +311,7 @@ A: Ja. Die Prinzipien von Training, Progressive Overload und
 
 
 ----------------------------------------------------------------
-13) FINAL-CTA (Vollbild, Foto: rage.jpg)
+13) FINAL-CTA (Vollbild, Foto: shredded.jpg — anderer Crop als Hero)
 ----------------------------------------------------------------
 Headline:    DEIN MOVE, BROSKI.
              ("BROSKI" in Orange hervorgehoben)
@@ -299,8 +330,8 @@ Tagline:     Luca & Finn — natural aufgebaut, ehrlich geteilt. Das
              Programm, das wir uns selbst gewünscht hätten.
 
 Folgen:      Instagram @testotwins08 (verlinkt)
-             TikTok (bald) · YouTube (bald)
-             [TODO: echte Kanal-URLs eintragen]
+             TikTok · YouTube @testotwins08 · Snapchat @testotwins
+             (alle verlinkt, echte Kanal-URLs seit 14.07.2026)
 
 Rechtliches: Impressum · Datenschutz · Widerruf (eigene Unterseiten)
 

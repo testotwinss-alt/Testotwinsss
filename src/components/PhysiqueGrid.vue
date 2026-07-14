@@ -1,9 +1,8 @@
 <script setup>
 const shots = [
-  { src: '/img/rage.jpg', alt: 'Finn in aggressiver Pose nach dem Training', w: 640, h: 1138 },
-  { src: '/img/summer.jpg', alt: 'Luca im Sommer-Shape, definiert', w: 640, h: 1138 },
-  { src: '/img/jacked.jpg', alt: 'Muskulöser Oberkörper eines der Twins', w: 640, h: 1138 },
-  { src: '/img/kapitel.jpg', alt: 'Ganzkörper-Physique eines der Testotwins', w: 900, h: 1200 }
+  { src: '/img/see-backpose.jpg', alt: 'Rückenpose eines der Testotwins am See', w: 970, h: 1094, pos: 'center' },
+  { src: '/img/gym-selfie.jpg', alt: 'Gym-Selfie eines der Twins nach dem Training', w: 1088, h: 1068, pos: 'center 20%' },
+  { src: '/img/backday.jpg', alt: 'Ausgebauter Rücken eines der Testotwins am Back-Day', w: 900, h: 1200, pos: 'center' }
 ]
 </script>
 
@@ -14,9 +13,9 @@ const shots = [
         <span class="eyebrow">Das Ergebnis</span>
         <h2 class="h1" id="physique-title">Gebaut mit dem, was wir dir geben.</h2>
       </div>
-      <div class="physique__grid">
+      <div class="physique__grid physique__grid--trio">
         <div v-for="s in shots" :key="s.src" class="physique__cell">
-          <img :src="s.src" :alt="s.alt" loading="lazy" :width="s.w" :height="s.h">
+          <img :src="s.src" :alt="s.alt" loading="lazy" :width="s.w" :height="s.h" :style="{ objectPosition: s.pos }">
         </div>
       </div>
     </div>

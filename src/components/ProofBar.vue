@@ -10,8 +10,8 @@
         <span class="proof__label">Beiträge</span>
       </div>
       <div class="proof__badge">
-        <img src="/img/trentwins.jpg" alt="Die Testotwins zusammen mit den Tren Twins" loading="lazy" width="640" height="1136">
-        <span><b>Trentwins</b> meet the <b>Testotwins</b></span>
+        <img src="/img/posing-studio.jpg" alt="Luca und Finn beim Posing im Studio" loading="lazy" width="552" height="312" style="object-position: center 40%;">
+        <span><b>Luca</b> &amp; <b>Finn</b> &middot; Posing-Studio</span>
       </div>
     </div>
     <p class="container container--wide proof__stand">Instagram @testotwins08 &middot; Stand Juli 2026</p>

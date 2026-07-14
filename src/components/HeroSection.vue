@@ -4,12 +4,12 @@ import BuyButton from './BuyButton.vue'
 
 <template>
   <section class="hero" aria-labelledby="hero-title">
-    <img class="hero__bg" src="/img/pump.jpg" alt="Luca und Finn beim Pump-Training im Gym" width="1080" height="1920" fetchpriority="high">
+    <img class="hero__bg" src="/img/shredded.jpg" alt="Einer der Testotwins im aktuellen, definierten Shape" width="986" height="984" fetchpriority="high">
     <div class="hero__scrim" aria-hidden="true"></div>
     <div class="container hero__content">
       <span class="eyebrow">Das Natural-Programm der Testotwins</span>
-      <h1 class="hero__title" id="hero-title">Von skinny zu <span class="hl hl--solid">mogged</span> &mdash; der Plan, mit dem wir es gebaut haben.</h1>
-      <p class="hero__sub">Das komplette Training + Ernährung, mit dem wir als Twins von 0 auf crazy Progress gekommen sind &mdash; kein Bro-Science, kein Abo, einmal 29&euro; und es gehört dir.</p>
+      <h1 class="hero__title" id="hero-title"><span class="hl hl--solid">+6 KG</span> in einem Jahr &mdash; der Plan, mit dem wir es gebaut haben.</h1>
+      <p class="hero__sub">Das komplette Training + Ernährung, mit dem wir als Twins in einem Jahr echten Progress aufgebaut haben &mdash; kein Bro-Science, kein Abo, einmal 29&euro; und es gehört dir.</p>
       <div class="hero__cta-row">
         <BuyButton>Hol dir den Blueprint</BuyButton>
       </div>

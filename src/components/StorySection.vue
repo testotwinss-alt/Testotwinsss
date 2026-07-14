@@ -3,7 +3,7 @@
     <div class="container container--wide story__grid">
       <div class="story__media">
         <div class="ratio ratio--3-4">
-          <img src="/img/abitur.jpg" alt="Luca und Finn nach dem Abitur 2026" loading="lazy" width="1080" height="1440">
+          <img src="/img/see-front.jpg" alt="Luca und Finn von vorne, aktueller Shape" loading="lazy" width="936" height="1226">
         </div>
         <img class="story__avatar" src="/img/profile.jpg" alt="Profilbild der Testotwins" loading="lazy" width="72" height="72">
       </div>

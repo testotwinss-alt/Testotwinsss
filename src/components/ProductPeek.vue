@@ -1,23 +1,37 @@
 <template>
   <section class="section peek reveal" aria-labelledby="peek-title">
-    <div class="container container--wide">
-      <div class="section-head section-head--center">
-        <span class="eyebrow">Ein Blick rein</span>
-        <h2 class="h2" id="peek-title">So sieht's drin aus.</h2>
+    <div class="container container--wide peek__split">
+      <div class="peek__intro">
+        <span class="eyebrow">Was du bekommst</span>
+        <h2 class="h1" id="peek-title">Kein Plan von der Stange.</h2>
+        <p class="lead">Kein loses PDF, kein Bro-Science-Zettel. Der Blueprint ist das komplette System, mit dem wir selbst trainieren &mdash; sofort einsatzbereit, alles digital.</p>
       </div>
-      <div class="peek__grid">
-        <figure class="peek__item">
-          <div class="ratio ratio--3-4">
-            <img src="/img/kfa-post.jpg" alt="Körperfett-Analyse und Fortschritts-Post der Testotwins" loading="lazy" width="640" height="853">
-          </div>
-          <figcaption class="peek__caption"><b>KFA im Blick</b>Wir zeigen dir, wie du deinen Körperfettanteil realistisch einschätzt &mdash; statt dich von der Waage verrückt machen zu lassen.</figcaption>
-        </figure>
-        <figure class="peek__item">
-          <div class="ratio ratio--9-16 peek__media--letterbox">
-            <img src="/img/progress.jpg" alt="Progress-Vergleich der Testotwins über die Zeit" loading="lazy" width="640" height="1136">
-          </div>
-          <figcaption class="peek__caption"><b>Echter Progress</b>Kein Facetune, kein Filter &mdash; nur das, was Training + Ernährung über die Zeit machen.</figcaption>
-        </figure>
+
+      <div class="peek__panel">
+        <!-- TODO KUNDE: Produktumfang final abgleichen (identisch zur Preis-Box halten) -->
+        <ul class="pricebox__list">
+          <li>
+            <span class="pricebox__check" aria-hidden="true">&check;</span>
+            <span><b>Workout-Splits</b><span class="peek__desc">2&ndash;6 Trainingstage die Woche, von Anfänger bis Fortgeschritten.</span></span>
+          </li>
+          <li>
+            <span class="pricebox__check" aria-hidden="true">&check;</span>
+            <span><b>Ernährungsguide + Rezepte</b><span class="peek__desc">Aufbau, Diät &amp; Recomp &mdash; budget-tauglich, ohne Steak-und-Lachs-Bullshit.</span></span>
+          </li>
+          <li>
+            <span class="pricebox__check" aria-hidden="true">&check;</span>
+            <span><b>Progressive-Overload-System</b><span class="peek__desc">Messbar stärker werden, Woche für Woche &mdash; nicht nach Gefühl.</span></span>
+          </li>
+          <li>
+            <span class="pricebox__check" aria-hidden="true">&check;</span>
+            <span><b>Trainings-Tracker</b><span class="peek__desc">Dein Fortschritt schwarz auf weiß, statt dich von der Waage verrückt machen zu lassen.</span></span>
+          </li>
+          <li>
+            <span class="pricebox__check" aria-hidden="true">&check;</span>
+            <span><b>Twin-Vergleich: Luca vs. Finn</b><span class="peek__desc">High-Volume gegen High-Intensity &mdash; wähl den Weg, der zu dir passt.</span></span>
+          </li>
+        </ul>
+        <p class="peek__micro">Sofort-Zugang &middot; alles digital &middot; einmal zahlen, behalten.</p>
       </div>
     </div>
   </section>
