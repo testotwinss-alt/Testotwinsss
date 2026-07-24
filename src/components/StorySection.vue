@@ -3,7 +3,7 @@
     <div class="container container--wide story__grid">
       <div class="story__media">
         <div class="ratio ratio--3-4">
-          <img src="/img/see-front.jpg" alt="Luca und Finn von vorne, aktueller Shape" loading="lazy" width="936" height="1226">
+          <img src="/img/amsee.jpg" alt="Luca und Finn am See, aktueller Shape" loading="lazy" width="900" height="1600" style="object-position: center 35%;">
         </div>
         <img class="story__avatar" src="/img/profile.jpg" alt="Profilbild der Testotwins" loading="lazy" width="72" height="72">
       </div>

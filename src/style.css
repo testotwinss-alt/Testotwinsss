@@ -296,7 +296,7 @@ button { font-family: inherit; }
   width: 100%;
   height: 74%; /* Foto sitzt oben, Textzone unten liegt auf ruhigem --bg */
   object-fit: cover;
-  object-position: center 18%;
+  object-position: center 38%;
   opacity: .85;
   z-index: -2;
 }
@@ -396,7 +396,7 @@ button { font-family: inherit; }
   height: 32px;
   border-radius: var(--r-pill);
   object-fit: cover;
-  object-position: center 20%;
+  object-position: center 30%;
 }
 .proof__badge span {
   font-size: var(--fs-xs);
@@ -577,8 +577,7 @@ button { font-family: inherit; }
     align-items: center;
   }
 }
-.peek__intro .h1 { margin-top: var(--sp-3); }
-.peek__intro .lead { margin-top: var(--sp-4); }
+.peek__media { align-self: stretch; }
 .peek__panel {
   background: var(--surface-2);
   border: 1px solid var(--border-strong);
@@ -758,43 +757,136 @@ button { font-family: inherit; }
 .testi__name { font-weight: 600; font-size: var(--fs-sm); }
 .testi__ctx { font-size: var(--fs-xs); color: var(--faint); }
 
-/* ---------- Preis-Box ---------- */
+/* ---------- Preis-Sektion: 3-Tier-Pricing ---------- */
 .pricing { text-align: center; }
-.pricebox {
-  max-width: 480px;
-  margin-inline: auto;
-  background: var(--surface-2);
-  border: 1px solid var(--accent);
-  border-radius: var(--r-lg);
-  box-shadow: var(--shadow-pop);
-  overflow: hidden;
+
+.pricing__tiers {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--sp-4);
+  margin-top: var(--sp-6);
   text-align: left;
 }
-.pricebox__banner {
-  background: var(--accent-soft);
-  color: var(--accent);
-  text-align: center;
-  font-size: var(--fs-xs);
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: .1em;
-  padding: var(--sp-3);
-  border-bottom: 1px solid var(--border);
+@media (min-width: 768px) {
+  .pricing__tiers {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: var(--sp-5);
+    align-items: stretch;
+  }
 }
-.pricebox__body { padding: var(--sp-6) var(--sp-5); }
-.pricebox__price {
+
+.tier {
+  display: flex;
+  flex-direction: column;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  box-shadow: var(--shadow-card);
+  padding: var(--sp-5);
+}
+.tier--featured {
+  position: relative;
+  background: var(--surface-2);
+  border: 1px solid var(--accent);
+  box-shadow: var(--shadow-pop);
+  padding-top: var(--sp-6);
+}
+@media (min-width: 768px) {
+  .tier--featured { transform: translateY(-8px); }
+}
+
+.tier__badge {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* Solider Badge-Hintergrund: sonst scheint der Akzent-Rand der Card durch den
+   halbtransparenten Badge und wirkt wie ein Strich durch die Schrift. */
+.tier__badge .badge--accent {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+.tier__name {
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  color: var(--text);
+}
+.tier__tagline {
+  margin-top: var(--sp-2);
+  font-size: var(--fs-sm);
+  color: var(--muted);
+}
+.tier__price {
   display: flex;
   align-items: baseline;
-  gap: var(--sp-3);
-  margin-bottom: var(--sp-2);
+  gap: var(--sp-2);
+  margin-top: var(--sp-4);
 }
-.pricebox__now {
+/* Preis bewusst NIE orange — Akzent bleibt dem CTA vorbehalten. */
+.tier__amount {
   font-family: var(--font-display);
-  font-size: clamp(3rem, 14vw, 4.5rem);
-  line-height: 0.9;
+  font-size: clamp(2.25rem, 7vw, 3rem);
+  line-height: 1;
   letter-spacing: -0.02em;
+  color: var(--text);
 }
-.pricebox__once { color: var(--faint); font-size: var(--fs-sm); }
+.tier__once { color: var(--faint); font-size: var(--fs-xs); }
+.tier__delta {
+  margin-top: var(--sp-1);
+  font-size: var(--fs-xs);
+  color: var(--faint);
+}
+.tier__inherit {
+  margin-top: var(--sp-4);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r-sm);
+  padding: var(--sp-2) var(--sp-3);
+  color: var(--muted);
+  font-size: var(--fs-sm);
+}
+.tier__inherit b { color: var(--text); font-weight: 700; }
+.tier__inherit-arrow { color: var(--faint); }
+
+.tier__features {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+  margin: var(--sp-4) 0;
+}
+.tier__features li {
+  display: flex;
+  gap: var(--sp-3);
+  align-items: flex-start;
+  font-size: var(--fs-sm);
+  color: var(--text);
+}
+.tier__features li b {
+  display: block;
+  color: var(--text);
+  font-weight: 600;
+}
+
+.tier__cta { margin-top: auto; }
+
+.pricing__trust {
+  margin-top: var(--sp-6);
+  font-size: var(--fs-sm);
+  color: var(--muted);
+}
+.pricing__methods {
+  margin-top: var(--sp-2);
+  font-size: var(--fs-xs);
+  color: var(--faint);
+}
+
+/* Reuse: Häkchen-Liste (auch in ProductPeek) */
 .pricebox__list {
   display: flex;
   flex-direction: column;
@@ -814,26 +906,6 @@ button { font-family: inherit; }
   flex: 0 0 auto;
   line-height: 1.5;
 }
-.pricebox__cta { margin-top: var(--sp-5); }
-.pricebox__trust {
-  margin-top: var(--sp-4);
-  font-size: var(--fs-xs);
-  color: var(--faint);
-  text-align: center;
-  line-height: 1.7;
-}
-.pricebox__guarantee {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--sp-2);
-  margin-top: var(--sp-3);
-  font-size: var(--fs-sm);
-  color: var(--muted);
-  font-weight: 600;
-  justify-content: center;
-  width: 100%;
-}
-.pricebox__guarantee .g { color: var(--accent); }
 
 /* ---------- FAQ ---------- */
 .faq__list { display: flex; flex-direction: column; gap: var(--sp-3); }
@@ -897,7 +969,7 @@ button { font-family: inherit; }
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 30%;
+  object-position: center 28%;
   z-index: -2;
 }
 .finale__scrim {
@@ -1067,6 +1139,52 @@ button { font-family: inherit; }
   margin: var(--sp-5) 0;
 }
 .legal__box p { color: var(--text); }
+
+/* ---------- Danke-Seite (Stripe success_url) ---------- */
+/* Baut auf .legal auf, deshalb nur die Ergänzungen. */
+.danke .eyebrow { display: block; margin-bottom: var(--sp-3); }
+.danke__lead { margin-bottom: var(--sp-7); }
+
+.danke__steps {
+  list-style: none;
+  margin: 0 0 var(--sp-7);
+  padding: 0;
+  display: grid;
+  gap: var(--sp-4);
+}
+.danke__step {
+  display: flex;
+  gap: var(--sp-4);
+  align-items: flex-start;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--r-md);
+  background: var(--surface);
+  padding: var(--sp-5);
+}
+.danke__num {
+  font-family: var(--font-display);
+  font-size: var(--fs-h3);
+  color: var(--accent);
+  line-height: 1;
+  flex-shrink: 0;
+}
+.legal .danke__step-title {
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  font-weight: 700;
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--text);
+  margin: 0 0 var(--sp-2);
+}
+
+.danke__help { margin-bottom: var(--sp-6); }
+.danke__legal {
+  font-size: var(--fs-xs);
+  color: var(--faint);
+  margin-bottom: var(--sp-6);
+}
+.danke__home { margin-top: var(--sp-2); }
 
 /* Feinprint-Zeile unter dem Kauf-CTA in der Preis-Box */
 .pricebox__fineprint {

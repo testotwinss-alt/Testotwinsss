@@ -17,16 +17,16 @@
       <p>Verantwortlicher im Sinne der Datenschutz-Grundverordnung (DSGVO) ist:</p>
       <!-- Platzhalter: identisch zum Impressum -->
       <address>
-        <span class="legal__placeholder">[VOR- UND NACHNAME DES BETREIBERS]</span><br>
-        <span class="legal__placeholder">[STRASSE HAUSNR.]</span><br>
-        <span class="legal__placeholder">[PLZ ORT]</span><br>
-        E-Mail: <span class="legal__placeholder">[E-MAIL-ADRESSE]</span>
+        Finn Falluh Pimentel<br>
+        Juri-Gagarin-Ring 156<br>
+        99084 Erfurt<br>
+        E-Mail: Testotwinss@gmail.com
       </address>
 
       <h2>2. Hosting &amp; Server-Logfiles</h2>
       <p>
         Diese Website wird bei einem externen Dienstleister gehostet
-        (<span class="legal__placeholder">[HOSTING-ANBIETER]</span>). Beim Aufruf der
+        (Cloudflare, Inc., 101 Townsend Street, San Francisco, CA 94107, USA). Beim Aufruf der
         Seite erhebt der Hosting-Anbieter aus technischen Gründen automatisch
         Informationen, die dein Browser übermittelt (sogenannte Server-Logfiles):
       </p>
@@ -45,9 +45,8 @@
         Eine Zusammenführung dieser Daten mit anderen Datenquellen findet nicht statt.
       </p>
       <p>
-        <!-- Platzhalter: konkrete Speicherdauer beim Hoster erfragen und eintragen -->
         Speicherdauer: Die Logfiles werden nach spätestens
-        <span class="legal__placeholder">[7 TAGEN / DAUER LT. HOSTER]</span> automatisch
+        7 Tagen automatisch
         gelöscht (Art. 13 Abs. 2 lit. a DSGVO).
       </p>
 

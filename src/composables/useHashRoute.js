@@ -10,14 +10,16 @@ import { ref } from 'vue'
 const ROUTES = {
   '#/impressum': 'impressum',
   '#/datenschutz': 'datenschutz',
-  '#/widerruf': 'widerruf'
+  '#/widerruf': 'widerruf',
+  '#/danke': 'danke'
 }
 
 const TITLES = {
-  home: 'Twin Blueprint — Das Natural-Programm der Testotwins | 29€',
+  home: 'Twin Blueprint — Das Natural-Programm der Testotwins',
   impressum: 'Impressum — Testotwins',
   datenschutz: 'Datenschutzerklärung — Testotwins',
-  widerruf: 'Widerrufsbelehrung — Testotwins'
+  widerruf: 'Widerrufsbelehrung — Testotwins',
+  danke: 'Danke für deinen Kauf — Testotwins'
 }
 
 // Singleton-State: von App und Kind-Komponenten gemeinsam genutzt.
@@ -38,6 +40,17 @@ function apply() {
   currentPage.value = page
   document.title = TITLES[page] || TITLES.home
 
+  // Unterseiten werden auch DIREKT aufgerufen (die Danke-Seite als
+  // Stripe-success_url). Beim Neuladen stellt der Browser sonst die alte
+  // Scroll-Position wieder her — und zwar NACH dem Rendern, womit das
+  // scrollTo(0,0) unten wirkungslos verpufft.
+  // Muss bei JEDEM Routenwechsel laufen, nicht nur beim Init: Hash-Wechsel
+  // laden das Dokument nicht neu, sonst bliebe "manual" für den Rest der
+  // Session kleben und die Landing verlöre ihre Scroll-Wiederherstellung.
+  if ('scrollRestoration' in history) {
+    history.scrollRestoration = page === 'home' ? 'auto' : 'manual'
+  }
+
   if (page !== 'home') {
     // Rechtsseite: immer oben starten.
     window.scrollTo(0, 0)
@@ -57,6 +70,6 @@ let initialized = false
 export function initHashRoute() {
   if (initialized) return
   initialized = true
-  document.title = TITLES[currentPage.value] || TITLES.home
+  apply()
   window.addEventListener('hashchange', apply)
 }

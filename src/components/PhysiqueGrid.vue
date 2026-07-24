@@ -1,8 +1,8 @@
 <script setup>
 const shots = [
-  { src: '/img/see-backpose.jpg', alt: 'Rückenpose eines der Testotwins am See', w: 970, h: 1094, pos: 'center' },
-  { src: '/img/gym-selfie.jpg', alt: 'Gym-Selfie eines der Twins nach dem Training', w: 1088, h: 1068, pos: 'center 20%' },
-  { src: '/img/backday.jpg', alt: 'Ausgebauter Rücken eines der Testotwins am Back-Day', w: 900, h: 1200, pos: 'center' }
+  { src: '/img/shredz.jpg', alt: 'Definierter Shape eines der Testotwins', w: 1012, h: 1800, pos: 'center 30%' },
+  { src: '/img/sidechest2.jpg', alt: 'Side-Chest-Pose eines der Testotwins', w: 1012, h: 1800, pos: 'center 35%' },
+  { src: '/img/sidechest.jpg', alt: 'Side-Chest-Pose eines der Testotwins', w: 1012, h: 1800, pos: 'center 32%' }
 ]
 </script>
 

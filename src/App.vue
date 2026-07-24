@@ -19,13 +19,17 @@ import StickyCtaBar from './components/StickyCtaBar.vue'
 import ImpressumPage from './components/ImpressumPage.vue'
 import DatenschutzPage from './components/DatenschutzPage.vue'
 import WiderrufPage from './components/WiderrufPage.vue'
+import DankePage from './components/DankePage.vue'
 import { useReveal } from './composables/useReveal.js'
 import { currentPage, initHashRoute } from './composables/useHashRoute.js'
 
+// Unterseiten mit schlichtem Layout (kein Verkaufsdruck, keine Sticky-Bar).
+// Die Danke-Seite gehört bewusst dazu: nach dem Kauf keine Kauf-CTAs mehr.
 const legalPages = {
   impressum: ImpressumPage,
   datenschutz: DatenschutzPage,
-  widerruf: WiderrufPage
+  widerruf: WiderrufPage,
+  danke: DankePage
 }
 
 initHashRoute()

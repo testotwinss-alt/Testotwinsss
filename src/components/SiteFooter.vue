@@ -10,9 +10,8 @@
           <h4>Folgen</h4>
           <nav class="footer__links" aria-label="Social Media">
             <a href="https://www.instagram.com/testotwins08/" target="_blank" rel="noopener noreferrer">Instagram @testotwins08</a>
-            <a href="https://vm.tiktok.com/ZNRoH87Lu/" target="_blank" rel="noopener noreferrer">TikTok</a>
+            <a href="https://www.tiktok.com/@testotwins08" target="_blank" rel="noopener noreferrer">TikTok @testotwins08</a>
             <a href="https://www.youtube.com/@testotwins08" target="_blank" rel="noopener noreferrer">YouTube @testotwins08</a>
-            <a href="https://www.snapchat.com/@testotwins" target="_blank" rel="noopener noreferrer">Snapchat @testotwins</a>
           </nav>
         </div>
         <div class="footer__col">

@@ -2,25 +2,32 @@
 import { useBuy } from '../composables/useBuy.js'
 
 /**
- * Zentraler Kauf-CTA. Rendert ein <a>, das entweder zum Stripe-Payment-Link
- * (neuer Tab) oder – als Fallback – sanft zur Preis-Box scrollt.
+ * Zentraler Kauf-CTA. Rendert ein <a>, das entweder direkt zum Stripe-Payment-
+ * Link des gewählten Pakets (neuer Tab) oder – ohne Paket bzw. als Fallback –
+ * sanft zur Paket-Auswahl (#checkout) scrollt.
  *
  * Slot = Button-Label. `arrow` zeigt den animierten Pfeil (Default: true).
- * `btnClass` erlaubt Varianten (z. B. "btn--sm", "btn--block").
+ * `btnClass` erlaubt Zusatz-Varianten (z. B. "btn--sm", "btn--block").
+ * `variant` = 'primary' | 'secondary' — Akzent-Disziplin: max. ein solider
+ *   Orange-CTA pro Viewport, Rest als Outline.
+ * `plan` = 'paket1' | 'paket2' | 'paket3' — nur die Paket-CTAs setzen das,
+ *   alle generischen CTAs lassen es leer und scrollen zu #checkout.
  */
-defineProps({
+const props = defineProps({
   btnClass: { type: String, default: '' },
   arrow: { type: Boolean, default: true },
-  ariaLabel: { type: String, default: null }
+  ariaLabel: { type: String, default: null },
+  variant: { type: String, default: 'primary' },
+  plan: { type: String, default: '' }
 })
 
-const { buyHref, buyTarget, buyRel, handleBuyClick } = useBuy()
+const { buyHref, buyTarget, buyRel, handleBuyClick } = useBuy(props.plan)
 </script>
 
 <template>
   <a
-    class="btn btn-primary"
-    :class="btnClass"
+    class="btn"
+    :class="[variant === 'secondary' ? 'btn-secondary' : 'btn-primary', btnClass]"
     :href="buyHref"
     :target="buyTarget"
     :rel="buyRel"

@@ -36,9 +36,9 @@ onBeforeUnmount(() => {
 <template>
   <div class="stickybar" :class="{ 'is-visible': visible }" :aria-hidden="!visible" :inert="!visible">
     <div class="stickybar__price">
-      <span class="stickybar__now">29&euro;</span>
+      <span class="stickybar__now">ab 12&euro;</span>
       <span class="stickybar__once">einmalig, kein Abo</span>
     </div>
-    <BuyButton btn-class="btn--sm">Jetzt sichern</BuyButton>
+    <BuyButton btn-class="btn--sm" aria-label="Paket auswählen">Paket sichern</BuyButton>
   </div>
 </template>

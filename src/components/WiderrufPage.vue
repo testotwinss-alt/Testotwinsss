@@ -14,10 +14,10 @@
       </p>
       <p>
         Um dein Widerrufsrecht auszuüben, musst du uns
-        (<span class="legal__placeholder">[VOR- UND NACHNAME DES BETREIBERS]</span>,
-        <span class="legal__placeholder">[STRASSE HAUSNR.]</span>,
-        <span class="legal__placeholder">[PLZ ORT]</span>,
-        E-Mail: <span class="legal__placeholder">[E-MAIL-ADRESSE]</span>) mittels einer
+        (Finn Falluh Pimentel,
+        Juri-Gagarin-Ring 156,
+        99084 Erfurt,
+        E-Mail: Testotwinss@gmail.com) mittels einer
         eindeutigen Erklärung (z. B. ein mit der Post versandter Brief oder eine
         E-Mail) über deinen Entschluss, diesen Vertrag zu widerrufen, informieren.
         Du kannst dafür das beigefügte Muster-Widerrufsformular verwenden, das jedoch
@@ -72,10 +72,10 @@
           aus und sende es zurück.)
         </p>
         <p>
-          &mdash; An <span class="legal__placeholder">[VOR- UND NACHNAME DES BETREIBERS]</span>,
-          <span class="legal__placeholder">[STRASSE HAUSNR.]</span>,
-          <span class="legal__placeholder">[PLZ ORT]</span>,
-          E-Mail: <span class="legal__placeholder">[E-MAIL-ADRESSE]</span>:
+          &mdash; An Finn Falluh Pimentel,
+          Juri-Gagarin-Ring 156,
+          99084 Erfurt,
+          E-Mail: Testotwinss@gmail.com:
         </p>
         <p>
           &mdash; Hiermit widerrufe(n) ich/wir (*) den von mir/uns (*) abgeschlossenen
@@ -89,14 +89,6 @@
         <p>&mdash; Datum</p>
         <p>(*) Unzutreffendes streichen.</p>
       </div>
-
-      <h2>Freiwillige Geld-zurück-Garantie</h2>
-      <p>
-        Unabhängig von deinem gesetzlichen Widerrufsrecht gewähren wir dir eine
-        freiwillige <strong>30-Tage-Geld-zurück-Garantie</strong>. Diese zusätzliche
-        Zusage lässt dein gesetzliches Widerrufsrecht unberührt und schränkt es in
-        keiner Weise ein.
-      </p>
     </div>
   </section>
 </template>
