@@ -7,6 +7,7 @@ import TransformSection from './components/TransformSection.vue'
 import ProblemSection from './components/ProblemSection.vue'
 import FeatureGrid from './components/FeatureGrid.vue'
 import ProductPeek from './components/ProductPeek.vue'
+import PaketeSection from './components/PaketeSection.vue'
 import PhysiqueGrid from './components/PhysiqueGrid.vue'
 import TwinUsp from './components/TwinUsp.vue'
 // TODO: erst mit ECHTEN Kundenstimmen wieder aktivieren — erfundene Bewertungen sind wettbewerbswidrig
@@ -58,6 +59,7 @@ useReveal()
       <ProblemSection />
       <FeatureGrid />
       <ProductPeek />
+      <PaketeSection />
       <PhysiqueGrid />
       <TwinUsp />
       <!-- TODO: erst mit ECHTEN Kundenstimmen wieder aktivieren — erfundene Bewertungen sind wettbewerbswidrig -->

@@ -20,7 +20,7 @@ defineProps({
         <img class="brand__avatar" src="/img/profile.jpg" alt="Profilbild der Testotwins Luca und Finn" width="32" height="32">
         <span class="brand__name">Testotwins</span>
       </a>
-      <BuyButton v-if="showBuy" btn-class="btn--sm" aria-label="Paket auswählen, ab 12 Euro">ab 12&euro; sichern</BuyButton>
+      <BuyButton v-if="showBuy" btn-class="btn--sm" aria-label="Paket auswählen, ab 12 Euro">Ab 12&euro; sichern</BuyButton>
     </div>
   </header>
 </template>

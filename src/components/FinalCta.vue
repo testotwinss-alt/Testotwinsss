@@ -9,7 +9,7 @@ import BuyButton from './BuyButton.vue'
     <div class="container">
       <h2 class="finale__title" id="finale-title">Dein Move, <span class="hl hl--solid">Broski</span>.</h2>
       <BuyButton>Jetzt den Blueprint sichern</BuyButton>
-      <p class="finale__trust">Ab 12&euro; &bull; kein Abo &bull; Sofort-Zugang per Mail</p>
+      <p class="finale__trust">Ab 12&euro; &bull; kein Abo</p>
     </div>
   </section>
 </template>

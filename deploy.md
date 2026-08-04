@@ -38,7 +38,7 @@ Aktuell läuft der Kauf-Button im **Test-Modus** (es fließt kein echtes Geld). 
 2. Schließt die **Konto-Verifizierung** ab (Stripe fragt: Identität/Ausweis, Geschäftsdaten, **Bankkonto** für Auszahlungen). Als Einzelperson geht das als "Einzelunternehmer" — dafür ggf. vorher Gewerbe anmelden (siehe Hinweis unten ⚠️).
 3. **Ladet mich als Team-Mitglied ein** statt mir Schlüssel zu schicken: *Einstellungen → Team → Mitglied einladen* → meine E-Mail, Rolle **"Entwickler"**. ⚠️ **Schickt mir NIEMALS den "Geheimschlüssel" (sk_live_...) per WhatsApp/Mail** — die Team-Einladung reicht mir völlig und ist sicher.
 4. Aktiviert unter *Einstellungen → Zahlungsmethoden*: **Karte, PayPal, Klarna** (die Seite bewirbt diese Methoden — was ihr nicht aktiviert, nehme ich vom Text runter).
-5. Die **3 Live-Kauf-Links** (je ein Link pro Paket: Essentials 20 €, Advanced 30 €, Premium 50 €), jeweils mit der Widerrufs-Checkbox, erstelle dann ich (gleiche Konfiguration wie die getesteten Test-Links).
+5. Die **3 Live-Kauf-Links** (je ein Link pro Paket: Essentials 12 €, Advanced 30 €, Premium 50 €), jeweils mit der Widerrufs-Checkbox, erstelle dann ich (gleiche Konfiguration wie die getesteten Test-Links).
 
 > ⚠️ **Steuern/Gewerbe:** Wer digitale Produkte verkauft, handelt gewerblich → Gewerbeanmeldung + Steuern (ggf. Kleinunternehmerregelung § 19 UStG). Das klärt ihr bitte kurz mit einem Steuerberater — dauert einen Termin, erspart massiven Ärger.
 
@@ -62,8 +62,8 @@ Bitte geht diese Punkte durch und gebt mir zu jedem ein Ja/Nein bzw. eine Korrek
 
 1. **Das Produkt selbst:** Die fertigen Dateien (Trainingsplan-PDF, Ernährungsguide etc.), die Käufer nach dem Kauf bekommen — **die brauche ich von euch**, sonst gibt's nichts auszuliefern.
 2. **Natural-Aussage:** Die FAQ beantwortet "Seid ihr natural?" mit Ja. Bestätigt mir das bitte explizit — es steht dann als eure Aussage im Netz.
-3. **Twin-Ansätze:** Die Seite sagt "Luca = High Volume, Finn = High Intensity". Stimmt die Zuordnung? Wie trainiert ihr wirklich?
-4. **Paket-Inhalte:** Die Seite verkauft 3 Pakete — **Essentials** (20 €, Grundlagen-Guide: 3 Grundprinzipien, Anfängerfehler), **Advanced** (30 €, + Ernährungsfahrplan), **Premium** (50 €, + fertiger Trainingsplan). Paket 1 habt ihr inhaltlich bestätigt; bitte bestätigt mir noch den genauen Umfang von Paket 2 & 3, damit die Feature-Listen stimmen.
+3. **Zahlen-Claims (wichtig, UWG):** Die Seite behauptet **70.000+ Follower gesamt / 20.000+ auf Instagram** und eine Transformation **2023 · 70 kg → 2026 · 87 kg (+17 kg, ~20 kg Muskeln, 3 Jahre, 100% natural)**. Diese Zahlen müssen stimmen — bestätigt sie mir bitte, denn falsche Werbeaussagen sind abmahnbar.
+4. **Paket-Inhalte:** Die Seite verkauft 3 Pakete — **Essentials** (12 €, Grundlagen-Guide: 3 Grundprinzipien, Anfängerfehler), **Advanced** (30 €, + Ernährungsfahrplan), **Premium** (50 €, + fertiger Trainingsplan). Paket 1 habt ihr inhaltlich bestätigt; bitte bestätigt mir noch den genauen Umfang von Paket 2 & 3, damit die Feature-Listen stimmen.
 5. **Social-Links:** Eure TikTok- und YouTube-URLs (aktuell nur Instagram verlinkt).
 6. **Kundenstimmen:** Die Seite geht ohne Testimonials live (erfundene Bewertungen sind abmahnbar). Sobald ihr echte Rückmeldungen von Käufern habt (Screenshot + Einverständnis der Person), baue ich die Sektion ein — sie ist schon vorbereitet.
 
@@ -109,7 +109,7 @@ Sobald alles da ist, mache ich in ca. einem Tag:
 3. Die 3 Live-Payment-Links in Stripe erstellen (je Paket, inkl. Widerrufs-Checkbox) und einbauen, Weiterleitung auf die Danke-Seite setzen
 4. Social-Preview (og:image) auf die echte Domain umstellen
 5. Make-Szenario auf den Stripe-**Live**-Schlüssel umstellen und einschalten
-6. **Einen echten Test-Kauf pro Paket** mit euch zusammen durchführen (je 1 × 20 € / 30 € / 50 € an euch selbst, wird erstattet) — inkl. Check, dass pro Paket die richtige Auslieferungs-Mail ankommt und nicht im Spam landet
+6. **Einen echten Test-Kauf pro Paket** mit euch zusammen durchführen (je 1 × 12 € / 30 € / 50 € an euch selbst, wird erstattet) — inkl. Check, dass pro Paket die richtige Auslieferungs-Mail ankommt und nicht im Spam landet
 7. Danach: Link in die Instagram-Bio — und die Seite verkauft.
 
 ---

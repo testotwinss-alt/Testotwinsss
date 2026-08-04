@@ -2,8 +2,12 @@
 // FAQ leicht editierbar als Daten-Array.
 const faqs = [
   {
+    q: 'Welches Paket ist das richtige für mich?',
+    a: 'Wenn du gerade erst anfängst oder einen kompakten Überblick willst, reicht Essentials völlig. Willst du auch bei der Ernährung ins Detail gehen, nimm Advanced. Willst du den kompletten Blueprint inklusive unserem eigenen Trainingsplan, nimm Premium — die Pakete bauen aufeinander auf, du verlierst also nichts.'
+  },
+  {
     q: 'Ist das für Anfänger geeignet?',
-    a: 'Absolut. Wir starten bei den Basics und bauen alles logisch auf. Es gibt Splits ab 2× die Woche für kompletten Einstieg — du brauchst kein Vorwissen, nur den Willen anzufangen.'
+    a: 'Absolut. Wir starten bei den Basics und bauen alles logisch auf. Schon Essentials deckt die wichtigsten Grundlagen ab — du brauchst kein Vorwissen, nur den Willen anzufangen.'
   },
   {
     q: 'Brauche ich ein Gym oder geht auch Home-Training?',
@@ -11,7 +15,7 @@ const faqs = [
   },
   {
     q: 'Wie schnell sehe ich Progress?',
-    a: 'Ehrliche Antwort: Das hängt von dir ab — von Konstanz, Ernährung, Schlaf und deiner Ausgangslage. Wir versprechen dir keinen festen Zeitplan und keine Garantie. Was du bekommst, ist ein System mit klarer Struktur. Es ist ein Marathon, kein Sprint — es funktioniert, wenn du dranbleibst.'
+    a: 'Ehrliche Antwort: Das hängt von dir ab — von Konstanz, Ernährung, Schlaf und deiner Ausgangslage. Wir versprechen dir keinen festen Zeitplan und keine Garantie. Was du bekommst, ist ein System mit klarer Struktur. Es funktioniert, wenn du dranbleibst.'
   },
   {
     q: 'Muss ich teuer essen und Supplements kaufen?',
@@ -20,11 +24,11 @@ const faqs = [
   // TODO KUNDE: Aussage von Luca & Finn bestätigen lassen
   {
     q: 'Seid ihr natural?',
-    a: 'Ja — zu 100% natural. Alles, was du auf unseren Fotos siehst, ist über Jahre mit Training, Ernährung und Konstanz gebaut. Der „#trentwins"-Spruch ist ein Meme und ein Augenzwinkern, keine Aussage über unser Training. Dieses Programm ist ausdrücklich ein Natural-Programm und empfiehlt keinerlei leistungssteigernde Mittel.'
+    a: 'Ja — zu 100% natural. Alles, was du auf unseren Fotos siehst, ist über 3 Jahre mit Training, Ernährung und Konstanz gebaut. Dieses Programm ist ausdrücklich ein Natural-Programm und empfiehlt keinerlei leistungssteigernde Mittel.'
   },
   {
     q: 'Ich bin Schüler/Azubi und hab wenig Zeit — passt das?',
-    a: 'Perfekt sogar. Wir haben das Ganze selbst neben dem Abi gebaut. Es gibt kurze, intensive Splits ab 45 Minuten und 2–3 Einheiten die Woche — der High-Intensity-Weg von Finn ist genau dafür gemacht.'
+    a: 'Perfekt sogar. Wir haben das Ganze selbst neben der Schule aufgebaut. Unser Trainingsplan lässt sich effizient in den Alltag einbauen, auch mit vollem Stundenplan.'
   },
   {
     q: 'Wie bekomme ich das Produkt?',

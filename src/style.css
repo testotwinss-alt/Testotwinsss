@@ -502,6 +502,7 @@ button { font-family: inherit; }
 }
 @media (min-width: 768px) {
   .features__grid { grid-template-columns: 1fr 1fr; }
+  .features__grid--trio { grid-template-columns: repeat(3, 1fr); }
 }
 .card {
   background: var(--surface);
@@ -511,10 +512,8 @@ button { font-family: inherit; }
   box-shadow: var(--shadow-card);
   transition: border-color .18s ease, transform .18s ease;
 }
-.card--accent { border-color: var(--accent); }
 @media (hover: hover) {
   .feature:hover { border-color: var(--border-strong); transform: translateY(-2px); }
-  .feature.card--accent:hover { border-color: var(--accent-hover); }
 }
 .feature__chip {
   display: block;
@@ -563,6 +562,66 @@ button { font-family: inherit; }
   margin-top: var(--sp-3);
   font-size: var(--fs-sm);
   color: var(--muted);
+}
+
+/* ---------- Origin-Journey-Timeline ---------- */
+/* Mobil: horizontaler Scroll-Snap-Strip (analog .testi__track).
+   Ab 768px: 3 gleiche Spalten. Verbinder-Pfeil in --border-strong. */
+.journey {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 68%;
+  gap: var(--sp-4);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  margin-top: var(--sp-6);
+  margin-inline: calc(-1 * var(--sp-5));
+  padding-inline: var(--sp-5);
+  padding-bottom: var(--sp-3);
+  scrollbar-width: none;
+}
+.journey::-webkit-scrollbar { display: none; }
+@media (min-width: 768px) {
+  .journey {
+    grid-auto-flow: row;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-columns: auto;
+    overflow: visible;
+    margin-inline: 0;
+    padding-inline: 0;
+    gap: var(--sp-5);
+  }
+}
+.journey__cell {
+  position: relative;
+  scroll-snap-align: start;
+}
+/* Verbinder-Pfeil zwischen den Zellen (nicht nach der letzten) */
+.journey__cell:not(:last-child)::after {
+  content: "\2192";
+  position: absolute;
+  top: 42%;
+  right: calc(-0.5 * var(--sp-4));
+  transform: translate(50%, -50%);
+  color: var(--border-strong);
+  font-size: 1.25rem;
+  line-height: 1;
+  z-index: 3;
+  pointer-events: none;
+}
+.journey__scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: linear-gradient(transparent 52%, rgba(11, 10, 9, .8));
+}
+.journey__chip {
+  position: absolute;
+  left: var(--sp-3);
+  bottom: var(--sp-3);
+  z-index: 2;
+  max-width: calc(100% - 2 * var(--sp-3));
 }
 
 /* ---------- Produkt-Einblick (bild-los, 2-Spalten-Split) ---------- */
@@ -634,13 +693,9 @@ button { font-family: inherit; }
 
 /* ---------- Twin-USP ---------- */
 .usp .section-head { margin-bottom: var(--sp-7); }
-.usp__cards {
-  position: relative;
-  display: grid;
-  gap: var(--sp-4);
-}
-@media (min-width: 480px) {
-  .usp__cards { grid-template-columns: 1fr 1fr; gap: var(--sp-5); }
+.usp__panel {
+  max-width: 560px;
+  margin-inline: auto;
 }
 .usp__card {
   background: var(--surface-2);
@@ -654,6 +709,21 @@ button { font-family: inherit; }
   align-items: center;
   gap: var(--sp-3);
   margin-bottom: var(--sp-4);
+}
+.usp__amp {
+  flex: 0 0 auto;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--r-pill);
+  background: var(--surface);
+  border: 1px solid var(--border-strong);
+  color: var(--accent);
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .usp__avatar {
   width: 48px;
@@ -678,24 +748,89 @@ button { font-family: inherit; }
 .usp__bullets { display: flex; flex-direction: column; gap: var(--sp-2); }
 .usp__bullets li { display: flex; gap: var(--sp-2); color: var(--muted); font-size: var(--fs-sm); }
 .usp__bullets li::before { content: "—"; color: var(--faint); flex: 0 0 auto; }
-.usp__vs {
+
+/* ---------- Pakete: Build-up-Ladder ---------- */
+/* Bewusst KEIN Card-Grid (das hat PricingBox schon) — vertikal gestapelte
+   Steps mit linker Verbinder-Spine. Nur der Premium-Step trägt Akzent. */
+.pakete__steps {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+  margin-top: var(--sp-6);
+}
+.pakete__steps::before {
+  content: "";
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 48px;
-  height: 48px;
+  top: 22px;
+  bottom: 22px;
+  left: 21px;
+  width: 1px;
+  background: var(--border-strong);
+  z-index: 0;
+}
+.pakete__step {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  gap: var(--sp-4);
+  align-items: flex-start;
+}
+.pakete__num {
+  flex: 0 0 auto;
+  width: 44px;
+  height: 44px;
   border-radius: var(--r-pill);
-  background: var(--accent);
-  color: var(--on-accent);
-  font-family: var(--font-display);
-  font-size: 1.1rem;
+  background: var(--surface-2);
+  border: 1px solid var(--border-strong);
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 4px solid var(--bg);
-  z-index: 2;
+  font-family: var(--font-display);
+  color: var(--accent);
+  font-size: 1.15rem;
+  line-height: 1;
 }
+.pakete__body {
+  flex: 1;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  padding: var(--sp-4) var(--sp-5);
+}
+.pakete__step--premium .pakete__body {
+  background: var(--surface-2);
+  border-color: var(--accent);
+  border-left-width: 3px;
+}
+.pakete__name {
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: -0.01em;
+  line-height: 1;
+  color: var(--text);
+}
+.pakete__desc {
+  margin-top: var(--sp-3);
+  color: var(--muted);
+  font-size: var(--fs-sm);
+}
+.pakete__inc {
+  display: inline-block;
+  margin-top: var(--sp-3);
+  font-size: var(--fs-xs);
+  color: var(--muted);
+  letter-spacing: .02em;
+}
+.pakete__outro {
+  margin-top: var(--sp-6);
+  color: var(--muted);
+  font-size: var(--fs-sm);
+  text-align: center;
+}
+.pakete__outro a { color: var(--muted); text-decoration: underline; text-underline-offset: 2px; }
+.pakete__outro a:hover { color: var(--text); }
 
 /* ---------- Testimonials ---------- */
 .testi__track {
@@ -885,6 +1020,11 @@ button { font-family: inherit; }
   font-size: var(--fs-xs);
   color: var(--faint);
 }
+.pricing__note {
+  margin-top: var(--sp-3);
+  font-size: var(--fs-sm);
+  color: var(--faint);
+}
 
 /* Reuse: Häkchen-Liste (auch in ProductPeek) */
 .pricebox__list {
@@ -901,7 +1041,7 @@ button { font-family: inherit; }
   color: var(--text);
 }
 .pricebox__check {
-  color: var(--accent);
+  color: var(--muted);
   font-weight: 700;
   flex: 0 0 auto;
   line-height: 1.5;

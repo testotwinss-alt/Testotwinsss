@@ -4,7 +4,7 @@
       <div class="footer__grid">
         <div class="footer__col">
           <div class="footer__brand">Testotwins</div>
-          <p class="footer__tagline">Luca &amp; Finn &mdash; natural aufgebaut, ehrlich geteilt. Das Programm, das wir uns selbst gewünscht hätten.</p>
+          <p class="footer__tagline">Luca &amp; Finn &mdash; natural aufgebaut, ehrlich geteilt. Das Programm, das wir uns selbst gewünscht hätten. 70.000+ folgen uns bereits.</p>
         </div>
         <div class="footer__col">
           <h4>Folgen</h4>

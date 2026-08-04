@@ -8,13 +8,13 @@ import BuyButton from './BuyButton.vue'
     <div class="hero__scrim" aria-hidden="true"></div>
     <div class="container hero__content">
       <span class="eyebrow">Das Natural-Programm der Testotwins</span>
-      <h1 class="hero__title" id="hero-title"><span class="hl hl--solid">+6 KG</span> in einem Jahr &mdash; der Plan, mit dem wir es gebaut haben.</h1>
-      <p class="hero__sub">Das komplette Training + Ernährung, mit dem wir als Twins in einem Jahr echten Progress aufgebaut haben &mdash; kein Bro-Science, kein Abo, ab 12&euro; und es gehört dir.</p>
+      <h1 class="hero__title" id="hero-title"><span class="hl hl--solid">+20 kg</span> Muskeln, deutlich weniger Fett &mdash; in 3 Jahren 100% natural.</h1>
+      <p class="hero__sub">Das komplette Training + Ernährung, mit dem wir als Twins über 3 Jahre echten Progress aufgebaut haben &mdash; kein Bro-Science, kein Abo, einmal zahlen und es gehört dir.</p>
       <div class="hero__cta-row">
         <BuyButton>Hol dir den Blueprint</BuyButton>
       </div>
       <p class="hero__trust">Sichere Zahlung &bull; Sofort-Zugang &bull; Einmalzahlung, kein Abo</p>
-      <p class="hero__followers"><span class="star" aria-hidden="true">&starf;</span> 16.800+ folgen den Twins</p>
+      <p class="hero__followers"><span class="star" aria-hidden="true">&starf;</span> 70.000+ folgen den Twins</p>
     </div>
   </section>
 </template>

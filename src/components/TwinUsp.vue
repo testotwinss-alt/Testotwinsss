@@ -1,28 +1,8 @@
 <script setup>
-// TODO KUNDE: Zuordnung + Trainingsphilosophie mit den Twins abstimmen
-const teams = [
-  {
-    name: 'Team Luca',
-    tag: 'High Volume',
-    avatar: '/img/profile.jpg',
-    accent: true,
-    bullets: [
-      'Mehr Sätze, mehr Pump, mehr Volumen pro Muskel',
-      'Ideal, wenn du gern lange & oft trainierst',
-      'Fokus auf Mind-Muscle-Connection'
-    ]
-  },
-  {
-    name: 'Team Finn',
-    tag: 'High Intensity',
-    avatar: '/img/profile.jpg',
-    accent: false,
-    bullets: [
-      'Weniger Sätze, brutal harte Ausführung',
-      'Ideal, wenn du wenig Zeit hast',
-      'Fokus auf Progressive Overload bis zum Versagen'
-    ]
-  }
+const bullets = [
+  'Gleiche Gene, gleicher Start — der beste Beweis, dass das System funktioniert',
+  'Wir haben uns motiviert, wenn der andere mal schwach wurde',
+  'Bei Fragen erreichst du uns jederzeit auf Instagram'
 ]
 </script>
 
@@ -31,29 +11,22 @@ const teams = [
     <div class="container container--wide">
       <div class="section-head section-head--center">
         <span class="eyebrow">Der Twin-Vorteil</span>
-        <h2 class="h1" id="usp-title">2 Coaches. 1 Preis.</h2>
-        <p class="lead">Die meisten Coaches sind eine Meinung. Wir sind zwei &mdash; gleiche Gene, gleicher Start, jeder Split an uns selbst getestet.</p>
+        <h2 class="h1" id="usp-title">2 Brüder. 1 System.</h2>
+        <p class="lead">Wir sind nicht zwei Meinungen, sondern ein eingespieltes Team. Wir haben uns über 3 Jahre gegenseitig gepusht, kontrolliert und am Ball gehalten.</p>
       </div>
-      <div class="usp__cards">
-        <article
-          v-for="team in teams"
-          :key="team.name"
-          class="usp__card"
-          :class="{ 'usp__card--accent': team.accent }"
-        >
-          <div class="usp__card-head">
-            <img class="usp__avatar" :src="team.avatar" :alt="team.name" loading="lazy" width="48" height="48">
-            <div>
-              <div class="usp__name">{{ team.name }}</div>
-              <div class="usp__tag">{{ team.tag }}</div>
-            </div>
+      <article class="usp__panel usp__card usp__card--accent">
+        <div class="usp__card-head">
+          <img class="usp__avatar" src="/img/profile.jpg" alt="Profilbild von Luca und Finn" loading="lazy" width="48" height="48">
+          <span class="usp__amp" aria-hidden="true">&amp;</span>
+          <div>
+            <div class="usp__name">Luca &amp; Finn</div>
+            <div class="usp__tag">3 Jahre natural</div>
           </div>
-          <ul class="usp__bullets">
-            <li v-for="(b, i) in team.bullets" :key="i">{{ b }}</li>
-          </ul>
-        </article>
-        <span class="usp__vs" aria-hidden="true">VS</span>
-      </div>
+        </div>
+        <ul class="usp__bullets">
+          <li v-for="(b, i) in bullets" :key="i">{{ b }}</li>
+        </ul>
+      </article>
     </div>
   </section>
 </template>
