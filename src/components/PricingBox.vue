@@ -9,6 +9,7 @@ const tiers = [
     id: 'paket1',
     name: 'Essentials',
     price: '12',
+    pages: 3,
     inherit: null,
     featured: false,
     variant: 'secondary',
@@ -21,6 +22,7 @@ const tiers = [
     id: 'paket2',
     name: 'Advanced',
     price: '30',
+    pages: 10,
     inherit: 'Essentials',
     featured: false,
     variant: 'secondary',
@@ -33,6 +35,7 @@ const tiers = [
     id: 'paket3',
     name: 'Premium',
     price: '50',
+    pages: 17,
     inherit: 'Advanced',
     featured: true,
     variant: 'primary',
@@ -71,6 +74,8 @@ const tiers = [
             <span class="tier__amount">{{ t.price }}&euro;</span>
             <span class="tier__once">einmalig</span>
           </div>
+
+          <p class="tier__pages">{{ t.pages }} Seiten &middot; PDF, sofort abrufbar</p>
 
           <div v-if="t.inherit" class="tier__inherit">
             <span class="tier__inherit-arrow" aria-hidden="true">&#8627;</span>

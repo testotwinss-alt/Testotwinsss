@@ -971,6 +971,12 @@ button { font-family: inherit; }
   color: var(--text);
 }
 .tier__once { color: var(--faint); font-size: var(--fs-xs); }
+.tier__pages {
+  margin-top: var(--sp-3);
+  font-size: var(--fs-sm);
+  color: var(--muted);
+  font-weight: 600;
+}
 .tier__delta {
   margin-top: var(--sp-1);
   font-size: var(--fs-xs);
