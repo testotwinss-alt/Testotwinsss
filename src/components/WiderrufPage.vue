@@ -15,9 +15,10 @@
       <p>
         Um dein Widerrufsrecht auszuüben, musst du uns
         (Finn Falluh Pimentel,
-        Juri-Gagarin-Ring 156,
-        99084 Erfurt,
-        E-Mail: Testotwinss@gmail.com) mittels einer
+        c/o IP-Management #11350,
+        Ludwig-Erhard-Str. 18,
+        20459 Hamburg,
+        E-Mail: testotwins.business@proton.me) mittels einer
         eindeutigen Erklärung (z. B. ein mit der Post versandter Brief oder eine
         E-Mail) über deinen Entschluss, diesen Vertrag zu widerrufen, informieren.
         Du kannst dafür das beigefügte Muster-Widerrufsformular verwenden, das jedoch
@@ -73,9 +74,10 @@
         </p>
         <p>
           &mdash; An Finn Falluh Pimentel,
-          Juri-Gagarin-Ring 156,
-          99084 Erfurt,
-          E-Mail: Testotwinss@gmail.com:
+          c/o IP-Management #11350,
+          Ludwig-Erhard-Str. 18,
+          20459 Hamburg,
+          E-Mail: testotwins.business@proton.me:
         </p>
         <p>
           &mdash; Hiermit widerrufe(n) ich/wir (*) den von mir/uns (*) abgeschlossenen

@@ -179,7 +179,7 @@ Luca &amp; Finn</p>
 <p style="font-size:12px;color:#666">
 Bestellung: {{1.data.object.id}}<br>
 Betrag: 12,00 € (inkl. USt.)<br>
-Finn Falluh Pimentel · Juri-Gagarin-Ring 156, 99084 Erfurt · Testotwinss@gmail.com<br>
+Finn Falluh Pimentel · c/o IP-Management #11350 · Ludwig-Erhard-Str. 18, 20459 Hamburg · testotwins.business@proton.me<br>
 Mit dem Kauf hast du dem sofortigen Beginn der Bereitstellung zugestimmt;
 dein Widerrufsrecht ist damit erloschen (§ 356 Abs. 5 BGB).
 </p>

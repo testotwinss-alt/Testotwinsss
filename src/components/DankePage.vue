@@ -10,7 +10,7 @@
  * "Kunden auf eine Website weiterleiten" -> https://DEINE-DOMAIN.de/#/danke
  */
 
-const SUPPORT_MAIL = 'Testotwinss@gmail.com'
+const SUPPORT_MAIL = 'testotwins.business@proton.me'
 
 const steps = [
   {

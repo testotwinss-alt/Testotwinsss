@@ -18,9 +18,10 @@
       <!-- Platzhalter: identisch zum Impressum -->
       <address>
         Finn Falluh Pimentel<br>
-        Juri-Gagarin-Ring 156<br>
-        99084 Erfurt<br>
-        E-Mail: Testotwinss@gmail.com
+        c/o IP-Management #11350<br>
+        Ludwig-Erhard-Str. 18<br>
+        20459 Hamburg<br>
+        E-Mail: testotwins.business@proton.me
       </address>
 
       <h2>2. Hosting &amp; Server-Logfiles</h2>
