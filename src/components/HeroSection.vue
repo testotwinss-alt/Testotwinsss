@@ -4,7 +4,7 @@ import BuyButton from './BuyButton.vue'
 
 <template>
   <section class="hero" aria-labelledby="hero-title">
-    <img class="hero__bg" src="/img/aestethics.jpg" alt="Einer der Testotwins im aktuellen, definierten Shape" width="900" height="1600" fetchpriority="high">
+    <img class="hero__bg" src="/img/chad-hero.jpg" alt="Luca und Finn im aktuellen, definierten Shape beim Posing" width="933" height="1400" fetchpriority="high" style="object-position: center 32%;">
     <div class="hero__scrim" aria-hidden="true"></div>
     <div class="container hero__content">
       <span class="eyebrow">Das Natural-Programm der Testotwins</span>

@@ -1,8 +1,8 @@
 <script setup>
 const shots = [
-  { src: '/img/shredz.jpg', alt: 'Definierter Shape eines der Testotwins', w: 1012, h: 1800, pos: 'center 30%' },
-  { src: '/img/sidechest2.jpg', alt: 'Side-Chest-Pose eines der Testotwins', w: 1012, h: 1800, pos: 'center 35%' },
-  { src: '/img/sidechest.jpg', alt: 'Side-Chest-Pose eines der Testotwins', w: 1012, h: 1800, pos: 'center 32%' }
+  { src: '/img/chad-front.jpg', alt: 'Luca und Finn im definierten Shape, Frontpose', w: 933, h: 1400, pos: 'center 38%' },
+  { src: '/img/chad-biceps.jpg', alt: 'Luca und Finn beim Bizeps-Posing gegenüber', w: 933, h: 1400, pos: 'center 40%' },
+  { src: '/img/chad-back.jpg', alt: 'Ausgebauter Rücken von Luca und Finn, Back-Double-Biceps', w: 933, h: 1400, pos: 'center 42%' }
 ]
 </script>
 
